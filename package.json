@@ -1,0 +1,9 @@
+{
+  "name": "3archai-lexicon-pwa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "3archAI AI lexicon — word of the day PWA",
+  "scripts": {
+    "test": "node test.mjs"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "3archAI — the AI lexicon",
+  "short_name": "Lexicon",
+  "description": "85 core AI terms, one a day, and the ten words to know before you start working with agents.",
+  "id": "/?app=lexicon",
+  "start_url": "/?app=lexicon",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "theme_color": "#060A15",
+  "background_color": "#060A15",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["education", "productivity", "reference"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "The ten words", "url": "/#starter" },
+    { "name": "All 85", "url": "/#browse" }
+  ]
+}

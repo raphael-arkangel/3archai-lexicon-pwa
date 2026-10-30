@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>3archAI — the AI lexicon</title>
+<meta name="description" content="85 core AI terms, one a day, and the ten words to know before you start working with AI agents." />
+<meta name="theme-color" content="#060A15" />
+<meta name="color-scheme" content="dark" />
+<link rel="canonical" href="https://ai.3archai.com/" />
+<link rel="manifest" href="/manifest.webmanifest" />
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180.png" />
+<link rel="icon" href="/icons/icon-192.png" sizes="192x192" type="image/png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="Lexicon" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta property="og:title" content="3archAI — the AI lexicon" />
+<meta property="og:description" content="85 core AI terms, one a day, and the ten words to know before you start." />
+<meta property="og:image" content="https://ai.3archai.com/icons/og.png" />
+<meta property="og:type" content="website" />
+<link rel="stylesheet" href="/styles.css" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "name": "3archAI AI lexicon",
+  "description": "85 core AI terms to work with agents, plus the ten to know before you start.",
+  "url": "https://ai.3archai.com/",
+  "inDefinedTermSet": { "@type": "DefinedTermSet", "name": "3archAI AI lexicon" }
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#starter">Skip to the ten words</a>
+
+<header class="bar">
+  <img class="mark" src="/icons/icon-192.png" width="28" height="28" alt="" />
+  <span class="brand">3archAI</span>
+  <span class="dot" aria-hidden="true">·</span>
+  <span class="kicker">the AI lexicon</span>
+</header>
+
+<main>
+  <section class="hero" id="wotd" aria-labelledby="wotd-h">
+    <p class="eyebrow" id="wotd-day">Word of the day</p>
+    <h1 id="wotd-h" class="wotd-term">—</h1>
+    <p class="wotd-def" id="wotd-def"></p>
+    <p class="wotd-group" id="wotd-group"></p>
+  </section>
+
+  <section id="starter" aria-labelledby="starter-h">
+    <h2 id="starter-h">Ten words before you start</h2>
+    <p class="lede">Learn these ten and you can use an AI agent. Each line carries the failure it prevents.</p>
+    <ol class="ten" id="starter-list"></ol>
+  </section>
+
+  <section id="browse" aria-labelledby="browse-h">
+    <h2 id="browse-h">All 85</h2>
+    <p class="lede">Grouped the way the work is shaped, not alphabetically. Every term is linkable.</p>
+    <div id="groups"></div>
+  </section>
+
+  <section id="notify" aria-labelledby="notify-h" hidden>
+    <h2 id="notify-h">One word a day</h2>
+    <p class="lede" id="notify-state"></p>
+    <div class="row">
+      <button id="notify-btn" class="btn" type="button" hidden>Send me the word of the day</button>
+      <button id="install-btn" class="btn ghost" type="button" hidden>Install this app</button>
+    </div>
+    <p class="fine" id="notify-note"></p>
+  </section>
+</main>
+
+<footer>
+  <p>
+    <strong>85 terms.</strong> Mined from 90,000+ messages across three agents, then cut down to what the work
+    actually uses. Version <span id="ver">—</span>.
+  </p>
+  <p class="fine">
+    Definitions are the working meaning, not the textbook one. A term is added when it earns its place in a
+    real build, and removed when nobody has needed it.
+  </p>
+</footer>
+
+<script type="module" src="/app.js"></script>
+</body>
+</html>
